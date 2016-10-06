@@ -1,0 +1,31 @@
+{
+  "name": "ppokatilo/bencode",
+  "type": "library",
+  "description": "Bencode library for PHP",
+  "keywords": [ "serialize" , "bencode" ],
+  "homepage": "http://github.com/SHyx0rmZ/php-bencode",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patrick Pokatilo",
+      "email": "mail@shyxormz.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "SHyx0rmZ\\Bencode\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SHyx0rmZ\\Bencode\\Test\\": "tests/"
+    }
+  }
+}
